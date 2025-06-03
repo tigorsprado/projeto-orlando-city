@@ -24,6 +24,7 @@ background-position: center;
             > div {
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
             }
         }
        
@@ -58,6 +59,15 @@ background-position: center;
         }
 
        @media (min-width: 992px) {
+            
+            & > header {
+                & > div {
+                    > div {
+                        justify-content: left;
+                    }
+                }
+            }
+
             & nav ul {
                 display: flex;
             }

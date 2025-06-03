@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <div id="drawer" >
+    <div id="drawer">
         <div class="overlay" data-drawer="toggle"></div>
         <div class="body">
             <header>
@@ -43,7 +43,7 @@
     <div id="hero">
 
         <header>
-            <div class="container">
+            <div>
                 <div>
                     <a href="/">
                         <img src="assets/img/logo.svg" alt="Logo Orlando City" />
@@ -56,6 +56,7 @@
                             <li><a href="">Video</a></li>
                         </ul>
                     </nav>
+                    
                 </div>
                 <div>
                     <nav>
@@ -66,10 +67,9 @@
                             <li><a href="#" class="social"><img src="assets/img/icon-facebook.svg" alt="Icon Facebook"></a></li>
                         </ul>
                     </nav>
-                
-                <button type="button" class="btn-menu" data-drawer="open">
-                    <img src="assets/img/menu.svg" alt="Icon menu" />
-                </button>
+                    <button type="button" class="btn-menu" data-drawer="open">
+                        <img src="assets/img/menu.svg" alt="Icon menu" />
+                    </button>
                 </div>
             </div>
         </header>
@@ -86,7 +86,7 @@
     </div>
 
     <main>
-        <section id="lastest-news">
+        <section id="latest-news">
                 <div class="container">
                     <h2 class="title">
                         <a href="#latest-news">Latest News <img src="assets/img/chevron-right.svg" alt="Icon Chevron Right"/>
@@ -342,7 +342,7 @@
     </main>
 
     <footer>
-        <section>
+        <section id="club-sites">
             <div class="container">
                 <h2 class="title-dark">
                     <a href="#"> Club Sites</a>
@@ -381,8 +381,8 @@
                 </ul>
             </div>
         </section>
-        <div class="container">
-            <div class="section-groups">
+        <!-- <div class="container"> -->
+            <div class="section-groups container">
                 <section>
                     <h2 class="title-dark">
                         <a href="#">Tickets</a>
@@ -439,7 +439,31 @@
                     </ul>
                 </section>
             </div>
-        </div>
+            <section id="social">
+                <div class="container">
+                    <a href="#"><img src="assets/img/icon-instagram.svg" alt=""></a>
+                    <a href="#"><img src="assets/img/icon-youtube.svg" alt=""></a>
+                    <a href="#"><img src="assets/img/icon-facebook.svg" alt=""></a>
+                </div>
+                <div class="container">
+                    <p>Imagem de <a href="https://pixabay.com/pt/users/raphaelsilva-4702998/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2935416">Raphael Silva</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2935416"">Pixabay</a></p>
+                </div>
+            </section>
+            <section id="mls">
+                <div class="container">
+                    <img src="assets/img/MLS-Crest-FFF.svg" alt="mls">
+
+                    <div>
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Do not sell or share my personal information</a></li>
+                        </ul>
+                        <p>©2023 MLS. The Major League Soccer and MLS name and shield are registered trademarks of Major League Soccer, L.L.C. (“MLS”). The names and logos of MLS teams are registered and/or common law trademarks of MLS or are used with the permission of their owners. Any unauthorized use is forbidden.</p>
+                    </div>
+                </div>
+            </section>
+        <!-- </div> -->
     </footer>
     <script defer src="assets/js/style.js"></script>
 </body>
